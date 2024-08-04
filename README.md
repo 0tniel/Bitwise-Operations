@@ -17,6 +17,7 @@ Bitwise Operators are the operators that are used to perform operations on the b
 <br>
 Types Of Bitwise Operators
 <br>
+<br>
 1)Bitwise AND (&)
 <br>
 2)Bitwise OR (|)
