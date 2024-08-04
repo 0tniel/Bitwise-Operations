@@ -14,6 +14,9 @@ To study various types of bitwise operations
 ## Theory
 Bitwise Operators are the operators that are used to perform operations on the bit level of the integers. While performing this operation integers are considered as sequences of binary digits. In C++, we have various types of Bitwise Operators.
 <br>
+<br>
+Types Of Bitwise Operators
+<br>
 1)Bitwise AND (&)
 <br>
 2)Bitwise OR (|)
