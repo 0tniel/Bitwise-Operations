@@ -18,17 +18,17 @@ Bitwise Operators are the operators that are used to perform operations on the b
 Types Of Bitwise Operators
 <br>
 <br>
-1)Bitwise AND (&)
+1)Bitwise AND  (&)
 <br>
-2)Bitwise OR (|)
+2)Bitwise OR  (|)
 <br>
-3)Bitwise XOR (^)
+3)Bitwise XOR  (^)
 <br>
-4)Bitwise NOT (~)
+4)Bitwise NOT  (~)
 <br>
-5)Left Shift (<<)
+5)Left Shift  (<<)
 <br>
-6)Right Shift (>>)
+6)Right Shift  (>>)
 <br>
 
 ## Algorithm
@@ -52,6 +52,8 @@ Step 8: Display Bitwise Not of b (~b)
 Step 9: Display Left Shift by 1 of a (a<<1)
 <br>
 Step 10: Display Right Shift by 1 of a (a>>1)
+<br>
+Step 11:End
 <br>
 
 ## Code
