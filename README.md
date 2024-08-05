@@ -113,11 +113,6 @@ To set and reset bit in binary
 <p> This program utilizes two primary bitwise operations: OR and AND, to manipulate specific bits in the number. The program uses the bitwise OR operation to set a particular bit (change it to 1). It shifts the number 1 to the left by the position of the bit we want to change, creating a number with a 1 only at that position. The OR operation combines this number with the original number, changing the specified bit to 1 while keeping all other bits the same. The program uses the bitwise AND operation to reset a specific bit (change it to 0).It first creates a number with a 1 at the bit position to be reset, then flips all bits to make a number with 0 at that position and 1s elsewhere. The AND operation combines this with the original number, turning the specified bit to 0 while leaving other bits unchanged.</p>
 
 ## Algorithm
-Certainly! Here's the algorithm with "input" instead of "prompt":
-
----
-
-## Algorithm
 
 Step 1: Start
 <br>
