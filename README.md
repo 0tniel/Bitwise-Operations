@@ -101,3 +101,81 @@ Thus, we have learned the different bitwise operations.
 <br>
 <p align="center">Experiment 4b</p>
 <br>
+
+## Aim
+To set and reset bit in binary 
+
+## Software Used
+- Dev C++
+
+## Theory
+<p>Bit manipulation is a crucial programming technique involving direct operations on the bits of a binary number. This method is often used for performance optimization and efficient data handling.</p>
+<p> This program utilizes two primary bitwise operations: OR and AND, to manipulate specific bits in the number. The program uses the bitwise OR operation to set a particular bit (change it to 1). It shifts the number 1 to the left by the position of the bit we want to change, creating a number with a 1 only at that position. The OR operation combines this number with the original number, changing the specified bit to 1 while keeping all other bits the same. The program uses the bitwise AND operation to reset a specific bit (change it to 0).It first creates a number with a 1 at the bit position to be reset, then flips all bits to make a number with 0 at that position and 1s elsewhere. The AND operation combines this with the original number, turning the specified bit to 0 while leaving other bits unchanged.</p>
+
+## Algorithm
+Certainly! Here's the algorithm with "input" instead of "prompt":
+
+---
+
+## Algorithm
+
+Step 1: Start
+<br>
+Step 2: Declare variables number, bitToSet, bitToReset, resultSet, and resultReset.
+<br>
+Step 3: Input a decimal number and store it in a number.
+<br>
+Step 4: Input the bit position to be set and store it in bitToSet.
+<br>
+Step 5: Input the bit position to be reset and store it in bitToReset
+<br>
+Step 6: Calculate resultSet by setting the specified bit in the number using the expression number | (1 << bitToSet)
+<br>
+Step 7: Calculate resultReset by resetting the specified bit in the number using the expression number & (~(1 << bitToReset))
+<br>
+Step 8: Display the original number
+<br>
+Step 9: Display the number after setting the specified bit (resultSet)
+<br>
+Step 10: Display the number after resetting the specified bit (resultReset)
+<br>
+Step 11: End
+<br>
+
+## Code
+
+```cpp
+//Otniel Jhirad
+//23070123069
+//ENTC A3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    int bitToSet, bitToReset;
+    int resultSet, resultReset;
+    cout << "Please enter a number in decimal: ";
+    cin >> number;
+    cout << "Please enter the bit position to be set: ";
+    cin >> bitToSet;
+    cout << "Please enter the bit position to be reset: ";
+    cin >> bitToReset;
+    resultSet = number | (1 << bitToSet);
+    resultReset = number & (~(1 << bitToReset));
+
+    cout << "Original number: " << number << endl;
+    cout << "Number after setting bit " << bitToSet << ": " << resultSet << endl;
+    cout << "Number after resetting bit " << bitToReset << ": " << resultReset << endl;
+
+    return 0;
+}
+```
+
+## Output
+
+![image](https://github.com/user-attachments/assets/8ab5a803-9aa2-48d3-b0e1-d59e9e8efd2e)
+
+## Conclusion
+
+Thus we learned how to manipulate bits in binary numbers by setting and resetting individual bits
