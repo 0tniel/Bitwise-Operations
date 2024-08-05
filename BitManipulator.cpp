@@ -18,10 +18,8 @@ int main() {
     cout << "Please enter the bit position to be reset: ";
     cin >> bitToReset;
 
-    // Setting the bit
     resultSet = number | (1 << bitToSet);
 
-    // Resetting the bit
     resultReset = number & (~(1 << bitToReset));
 
     cout << "Original number: " << number << endl;
@@ -30,4 +28,12 @@ int main() {
 
     return 0;
 }
-
+/*
+Output
+Please enter a number in decimal: 40
+Please enter the bit position to be set: 1
+Please enter the bit position to be reset: 2
+Original number: 40
+Number after setting bit 1: 42
+Number after resetting bit 2: 40
+*/
